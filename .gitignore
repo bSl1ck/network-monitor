@@ -1,0 +1,33 @@
+# Secrets and credentials
+telegram.env
+*.env
+.env
+
+# Runtime logs
+*.log
+*.log.*
+*.lock
+*.state
+
+# Nmap reports and test artifacts
+reports/
+test-cleanup/
+test-diff.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Backups
+*.tar.gz
+
+# Editor files
+*.swp
+*~
+
+# Local logrotate configuration
+logrotate.conf
+
+# Documentation backups and editor recovery files
+*.md.backup
+*.md.save

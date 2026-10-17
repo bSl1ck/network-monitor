@@ -1,0 +1,12 @@
+# Network Monitor - logrotate configuration template
+# Replace /home/USERNAME/path/to/network-monitor
+# with the actual installation directory.
+
+/home/USERNAME/path/to/network-monitor/cron.log {
+    size 1M
+    rotate 4
+    compress
+    missingok
+    notifempty
+    create 0600
+}
